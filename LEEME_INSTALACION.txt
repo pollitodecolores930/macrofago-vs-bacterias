@@ -1,0 +1,14 @@
+MACRÓFAGO VS. BACTERIAS — PAQUETE PWA INSTALABLE
+
+Este paquete prepara el juego como una aplicación web instalable (PWA), con icono propio y caché para jugar sin conexión después de la primera carga.
+
+IMPORTANTE: Android/Chrome solo permite instalar una PWA con icono y service worker desde una dirección HTTPS segura (o localhost). Abrir index.html directamente desde Archivos no activa la instalación PWA. Este ZIP NO es un APK y todavía debe publicarse en un hosting HTTPS para instalarlo desde el navegador.
+
+Una vez publicado en HTTPS:
+1. Abre la dirección del juego en Chrome en Android.
+2. Espera a que cargue una vez con internet.
+3. Abre el menú ⋮ y elige “Instalar aplicación” o “Añadir a pantalla de inicio” (el texto puede variar).
+4. Confirma. Aparecerá el icono “Macrófago” en la pantalla de inicio.
+5. Después de la primera carga, el juego y sus recursos incluidos se guardan para funcionar sin conexión.
+
+Contenido: index.html (juego), manifest.webmanifest, sw.js y los iconos 192/512 px.
